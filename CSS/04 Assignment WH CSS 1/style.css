@@ -1,0 +1,49 @@
+
+.blue{
+    background-color: rgb(0, 213, 255);
+    width: 200px;
+    height: 400px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.black{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+
+.green{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.flexbox{
+    position: absolute;
+    top: 450px;
+    left: 40px;
+    width: 500px;
+    height: 50px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid;
+}
+
+.rectangle{
+    background-color: aquamarine;
+    border: solid;
+    height: 10px;
+    width: 40px;
+}
+
