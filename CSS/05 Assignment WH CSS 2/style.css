@@ -1,0 +1,60 @@
+.flexbox{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.blueLeft{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.blueRight{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.redLeft{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.redRight{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.green{
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.black{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
