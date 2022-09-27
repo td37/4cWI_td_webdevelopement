@@ -1,11 +1,11 @@
 .flexbox{
-    background-color: beige;
+    border: solid;
     position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
 
 .green1{
@@ -15,7 +15,9 @@
     background-color: lightgreen;
     border: solid;
     margin: 10px;
-    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .green2{
@@ -25,6 +27,10 @@
     border: solid;
     border-color: lightgreen; 
     margin: 10px;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .green3{
@@ -34,14 +40,55 @@
     border: solid;
     border-color: lightgreen; 
     margin: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .violet1{
-    position: absolute;
+    position: relative;
     background-color: violet;
     border: solid;
     width: 40px;
     height: 30px;
-    top: center;
-    display: inline-block;
+}
+
+.violet2{
+    position: relative;
+    border: solid;
+    border-color: lightgreen;
+    width: 40px;
+    height: 30px;
+}
+
+.violet3{
+    position: relative;
+    border: solid;
+    border-color: lightgreen;
+    width: 40px;
+    height: 30px;
+}
+
+.blue{
+    background-color: lightblue;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.black1{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+.black2{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
 }
