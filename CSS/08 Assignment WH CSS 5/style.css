@@ -1,0 +1,49 @@
+.grid{
+    margin: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 300px 100px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange1{
+    background-color: orange;
+    grid-column-end: span 2;
+}
+
+.black{
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.gray{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
