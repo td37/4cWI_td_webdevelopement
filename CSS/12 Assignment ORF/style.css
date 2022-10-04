@@ -1,0 +1,51 @@
+.wrapper{
+   
+    width: 800px;
+   margin-left: 100px;
+}
+
+.flex{   
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #9d0b0e;
+    height: 30px;  
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.flex li{
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    font-family: Arial;
+}
+
+li:hover {color: #ee7160 }
+
+.ueberblick{
+    background-color: #9d0b0e;
+    color: white;
+    font-family: Arial;
+}
+
+.logo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #b61f22;
+}
+
+img{
+    width: 100px;
+    position: relative;
+}
+
+.vorarlberg{
+    font-size: 20pt;
+    color: white;
+    font-family: Arial;
+    position: relative;
+    left: 50px;
+}
