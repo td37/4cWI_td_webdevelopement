@@ -1,51 +1,121 @@
-.wrapper{
-   
-    width: 800px;
-   margin-left: 100px;
+body{
+    background-color: rgb(184, 184, 184);
 }
 
-.flex{   
+.wrapper {
+    background-color: #d74042;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.flex {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
     background-color: #9d0b0e;
-    height: 30px;  
+    height: 30px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.flex li{
+.flex li {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 11pt;
+}
+
+li:hover {
+    color: #ee7160
+}
+
+.ueberblick {
+    background-color: #9d0b0e;
+    color: white;
+    font-family: Arial;
+    font-size: 11pt;
+}
+
+.header {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #b61f22;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.vorarlberg {
+    font-size: 18pt;
+    color: white;
+    font-family: Arial;
+    position: relative;
+    left: 50px;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #740809;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.flex2 li {
     display: inline-block;
     margin: 5px;
     color: white;
     font-family: Arial;
 }
 
-li:hover {color: #ee7160 }
-
-.ueberblick{
-    background-color: #9d0b0e;
-    color: white;
-    font-family: Arial;
+.bell {
+    width: 15px;
+    height: 15px;
 }
 
-.logo{
-    height: 100px;
+.covidBackground {
+    height: 40vh;
+    background-image: url('./images/coronaBackground.jpg');
+    background-size: cover;
+}
+
+.flex3{
     display: flex;
-    align-items: center;
-    justify-content: left;
-    background-color: #b61f22;
+    background-color: white;
+    justify-content: center;
 }
 
-img{
-    width: 100px;
+.text{
+    background-color: white;
+    padding: 20px;
     position: relative;
+    top: -50px;
 }
 
-.vorarlberg{
+.thema{
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
     font-size: 20pt;
-    color: white;
-    font-family: Arial;
-    position: relative;
-    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content{
+    font-weight: 700;
 }
