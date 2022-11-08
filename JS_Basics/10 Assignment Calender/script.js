@@ -53,11 +53,11 @@ for (let i = 1; i <= dayOfMonth; i++) {
         }
         else {
             if (j < 10) {
-                outputPerWeek += "|  " + dayOfMonth;
+                outputPerWeek += "|   " + dayOfMonth;
                 dayOfMonth++;
             }
             else {
-                outputPerWeek += "|   " + dayOfMonth;
+                outputPerWeek += "|  " + dayOfMonth;
                 dayOfMonth++;
             }
         }
