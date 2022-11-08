@@ -25,3 +25,4 @@ for (let i = 0; i <=100; i+=2) {
 console.log("Die Summe aller geraden Zahlen zwischen 1 und 100 ist " + sum)
 
 
+
