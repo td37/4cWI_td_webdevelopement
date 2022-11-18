@@ -4,6 +4,8 @@ let startDayOfWeek = 3;
 let dayOfMonth = 1;
 let empty = "|    ";
 let daysInAWeek = 7;
+const daysOnAPage = 35;
+let header = "| MO | DI | MI | DO | FR | SA | SO |"
 
 switch (month) {
     case 1:
@@ -44,28 +46,31 @@ switch (month) {
         break;
 }
 
+console.log(header);
+
 let outputPerWeek = "";
 
-for (let i = 1; i <= dayOfMonth; i++) {
-    for (let j = 1; j <= daysInAWeek; j++) {
-        if (j < startDayOfWeek) {
+
+    for (let j = 1; j <= daysOnAPage; j++) {
+        if (j < startDayOfWeek || dayOfMonth > monthLength) {
             outputPerWeek += empty;
         }
         else {
-            if (j < 10) {
-                outputPerWeek += "|   " + dayOfMonth;
+            if (dayOfMonth < 10) {
+                outputPerWeek += "|  " + dayOfMonth + " ";
                 dayOfMonth++;
             }
             else {
-                outputPerWeek += "|  " + dayOfMonth;
+                outputPerWeek += "| " + dayOfMonth + " ";
                 dayOfMonth++;
             }
         }
-        if (dayOfMonth % 7 == 0) {
-            outputPerWeek += "| \n";
+        if (j % 7 == 0) {
+            outputPerWeek += "|";
             console.log(outputPerWeek);
+            outputPerWeek = "";
         }
 
     }
 
-}
+
