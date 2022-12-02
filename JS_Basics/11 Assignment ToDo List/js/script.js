@@ -19,8 +19,11 @@ function printTaskList() {
     document.getElementById("taskList").innerHTML = getHTMLTasks();
 }
 
-function markTest(){
-    alert("marking"); //3. Video 6:32
+function markTask(element){
+    let index = element.attributes["data-index"].value;
+    let isChecked = element.checked;
+    tasks[index].isDone = isChecked;
+    printTaskList();
 }
 
 function getHTMLTasks() {
@@ -31,7 +34,7 @@ function getHTMLTasks() {
         if(element.isDone){
             checked = "checked";
         }
-        html += "<li><input onClick='markTask'name ='checkbox' data-index='" + index + "' type='checkbox'" + checked + "/>" + element.name + " - " + element.responsible + index + "</li>";
+        html += "<li><input onClick='markTask(this)'name ='checkbox' data-index='" + index + "' type='checkbox'" + checked + "/>" + element.name + " - " + element.responsible + "</li>";
         index++;
     });
     return html;
