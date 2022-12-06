@@ -1,0 +1,16 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+
+h1{
+    padding: 10px;
+}
+
+input{
+    margin: 9px;
+}
+
+button {
+    margin: 5px;
+}
