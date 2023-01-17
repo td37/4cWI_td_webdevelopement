@@ -5,14 +5,33 @@
 
 .header{
     border: black 18px solid;
-    padding: 5px;
-    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
 }
 
 #wm{
-    
+    font-weight: 900;
+    font-size: 30pt;
+}
+
+#fussball{
+    font-size: 20pt;
+    letter-spacing: 25px;
+}
+
+#tore{
+    font-size: 23pt;
+    letter-spacing: 10px;
+    text-align: center;
+    font-style: italic;
 }
 
 .result{
+    padding-top: 15px;
+}
 
+.result div{
+    text-align: center;
+    padding: 5px;
 }
