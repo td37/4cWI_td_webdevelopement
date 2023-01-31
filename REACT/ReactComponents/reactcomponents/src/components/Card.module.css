@@ -1,0 +1,16 @@
+.name{
+    background-color: white;
+    width: 260px;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.department{
+    background-color: white;
+    width: 260px;
+    color: black;
+    text-align: left;
+    padding: 20px;
+}
